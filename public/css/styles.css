@@ -1,0 +1,177 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: grandeFont;
+    src: url("../fonts/absender1.ttf");
+}
+h3, h4, h5,h2,h1 {
+	font-family: myFirstFont;
+}
+.letra_grande {
+	font-family: grandeFont;
+	font-size: 70px;
+}
+.letra_de_parrafo {
+	font-family: myFirstFont;
+}
+.color_blanco {
+	color:white;
+}
+.color_secundario {
+	color:#009ED6;
+}
+
+* {
+	padding:0;
+	margin:0;
+}
+
+#contenedor {
+	font-family: myFirstFont;
+	width: 100%;
+	min-width: 200px;
+	max-width: 100%;
+	height: 100%;
+	min-height: 1000px;
+
+	/*background-color: #0B181C;*/
+
+	background: rgba(11,24,28,1);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(11,24,28,1) 0%, rgba(6,47,59,1) 100%);
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(11,24,28,1)), color-stop(100%, rgba(6,47,59,1)));
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(11,24,28,1) 0%, rgba(6,47,59,1) 100%);
+	background: -o-radial-gradient(center, ellipse cover, rgba(11,24,28,1) 0%, rgba(6,47,59,1) 100%);
+	background: -ms-radial-gradient(center, ellipse cover, rgba(11,24,28,1) 0%, rgba(6,47,59,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(11,24,28,1) 0%, rgba(6,47,59,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b181c', endColorstr='#062f3b', GradientType=1 );
+	background-image: url('../img/desk.jpg');
+}
+
+#header {
+	width: 100%;
+	height: 50px;
+	background-color: #00435B;
+}
+
+#navegacion {
+	float: right;
+	margin-right:20px;
+	margin-top: 20px;
+
+}
+#navegacion > h3 {
+	margin-top:20px;
+	display: inline;
+	margin: 10px;
+	cursor:pointer;
+	color:#009ED6;
+	font-size: 30px;
+	transition: border-bottom 0.2s;
+}
+#navegacion > h3:hover {
+	border-bottom: 4px solid #009ED6;
+}
+
+.clear {
+	clear:both;
+}
+.titulo
+{
+	font-size: 50px;
+}
+.centrado {
+ width: 700px;
+ margin: 0 auto;
+}
+/*SECCIONES EN HOME*/
+.seccion_principal {
+	 box-sizing: border-box;
+	width: 100%;
+	height: 700px;
+	padding-top: 0em;
+	padding-left:2em;
+}
+.segunda_seccion {
+	width: 100%;
+	min-height: 500px;
+	height: auto;
+
+	background-color: #13566E;
+}
+.tercera_seccion {
+	width: 100%;
+	height: auto;
+	min-height: 500px;
+}
+
+/*FIN SECCIONES EN HOME*/
+.en_linea
+{
+	display: inline;
+}
+
+.pad-ding {
+	box-sizing: border-box;
+	padding: 2em;
+}
+.justificar_texto {
+	text-align: justify;
+    text-justify: inter-word;
+}
+.interlineado_parrafo_grande {
+	line-height: 1.8em;
+}
+.social {
+	float:right;
+	margin-right: 1em;
+}
+.icono_social {
+	margin-left:20px;
+	font-size: 30px;
+}
+.item_tecnologia {
+	width: 100%;
+	box-sizing: border-box;
+}
+.mitad {
+	box-sizing: border-box;
+    width: 50%;
+    float: left;
+}
+.color_blanco {
+	color:white;
+}
+.desc_tech {
+	padding:10px;
+	border-left: 3px solid black;
+}
+.desc_tech_left {
+	padding:10px;
+	border-right: 3px solid black;
+}
+
+.portafolio {
+	width: 100%;
+	height: auto;
+	margin-top:5em;
+}
+	.portafolio > li {
+		display: inline-block;
+		text-decoration: none;
+		padding:5px;
+		margin-left: 3em;
+	}
+
+.item_portafolio:hover {
+	cursor:pointer;
+	
+}
+.item_portafolio img {
+	transition: border-radius 0.5s;
+}
+.item_portafolio img:hover{
+	border-radius: 20px 0 20px 0;
+}	
