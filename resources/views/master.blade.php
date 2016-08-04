@@ -7,30 +7,35 @@
 	@section('css')
 		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/jquery.fancybox.css') }}">
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
 	@show
 </head>
 <body>
 	<div id="contenedor">
 		@include('sections.nav')
-		<section class="seccion_principal">
 		
-			@include('sections.seccion_principal')	
-		</section>
-		<section class="segunda_seccion">
-			
-			@include('sections.segunda_seccion');
-		</section>
-		<section class="tercera_seccion pad-ding">
-			@include('sections.tercera_seccion');
-		</section>
 		<section>
-			
 			@yield('contenido')
 		</section>
+
+		@section('footer')
+		<footer>
+			@include('home.footer');
+		</footer>
+		@show
 	</div>
 </body>
 @section('js')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="{{ asset('js/jquery.scrollme.min.js') }}"></script>
+<script src="{{ asset('js/jquery.fancybox.js') }}"></script>
+<script src="{{ asset('js/fancybox_home.js') }}"></script>
+<script src="{{ asset('js/jquery.form.js') }}"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="{{ asset('js/contacto.js') }}"></script>
+<script src="{{ asset('js/configuracion_csfr.js') }}"></script>
+<script src="{{ asset('js/configuracion_toastr.js') }}"></script>
+
 @show
 </html>

@@ -74,7 +74,7 @@
 					</div>
 					<div class="clear"></div>
 				
-					<div class="mitad desc_tech_left">
+					<div class="mitad desc_tech_left ancho_completo-mobile">
 						<h1 class="color_blanco titulo" align="left">Desarrollo Móvil</h1>
 						<p class="interlineado_parrafo_grande justificar_texto">
 							El desarrollo móvil es otra necesidad en expansión constante, por lo que ofrecer soluciones de este tipo es todo un orgullo, a día de hoy 
@@ -109,7 +109,7 @@
 								        data-opacity="0"
 								        data-translatex="-200"
 								        data-easing="easeout">
-								     <img src="{{ asset('img/java_i2.png') }}" alt="" width="80px" height="80px">
+								     <img src="{{ asset('img/java_i2.png') }}" alt="" width="80px" height="80px" class="desaparecer">
 								    </div>
 							</div>
 							<div class="scrollme" style="display:inline;margin-top:20px">
@@ -121,7 +121,7 @@
 								        data-opacity="0"
 								        data-translatex="-200"
 								        data-easing="easeout">
-								     <img src="{{ asset('img/cordova2.png') }}" alt="" width="80px" height="80px">
+								     <img src="{{ asset('img/cordova2.png') }}" alt="" width="80px" height="80px" class="desaparecer">
 								   	</div>
 							</div>
 						</div>
@@ -142,11 +142,11 @@
 								        data-opacity="0"
 								        data-translatex="-200"
 								        data-easing="easeout">
-								     <img src="{{ asset('img/unity_icon.png') }}">
+								     <img src="{{ asset('img/unity_icon.png') }}" class="desaparecer">
 								   	</div>
 							</div>
 							</div>
-							<div class="mitad">
+							<div class="mitad ancho_completo-mobile">
 								<div class="scrollme" style="display:inline;margin-top:20px">
 								<div
 								        class="animateme"
@@ -156,13 +156,13 @@
 								        data-opacity="0"
 								        data-translatey="-200"
 								        data-easing="easein">
-								     <img src="{{ asset('img/c_icon.png') }}" width="100px" height="100px">
+								     <img src="{{ asset('img/c_icon.png') }}" width="100px" height="100px" class="desaparecer">
 								   	</div>
 							</div>
 							</div>
 							
 						</div>
-						<div class="mitad desc_tech">
+						<div class="mitad desc_tech ancho_completo-mobile">
 						
 						<h1 class="color_blanco titulo" align="left">Desarrollo de video juegos</h1>
 						<p class="interlineado_parrafo_grande justificar_texto">

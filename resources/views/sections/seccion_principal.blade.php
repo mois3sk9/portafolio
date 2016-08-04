@@ -5,9 +5,9 @@
 	<h2 class="en_linea color_blanco">Informáticos</h2>
 	<div class="social">
 		
-		<a href="#"><i class="fa fa-github icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
-		<a href="#"><i class="fa fa-facebook-square icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
-		<a href="#"><i class="fa fa-twitter-square icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
+		<a href="https://www.github.com/mois3sk9" target="_blank"><i class="fa fa-github icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
+		<a href="https://www.facebook.com/mois3s" target="_blank"><i class="fa fa-facebook-square icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
+		<a href="https://www.twitter.com/moisesk9" target="_blank"><i class="fa fa-twitter-square icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
 	</div>
 	
 	<hr>
@@ -19,6 +19,6 @@
 			para dar vida a las soluciones informáticas de mis clientes, y 
 			luego más abajo podrás ver los proyectos que he realizado y que son de caracter publico :) "
 		</h3>
-		<h1 class="color_secundario" style="font-size:2em;float:right;">Moises Sepulveda</h1>
+		<h1 class="color_secundario firma_moises">Moises Sepulveda</h1>
 	</div>
 </div>
