@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/jquery.fancybox.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/timelify.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
 	@show
 </head>
@@ -21,7 +23,7 @@
 
 		@section('footer')
 		<footer>
-			@include('home.footer');
+			@include('home.footer')
 		</footer>
 		@show
 	</div>
@@ -36,6 +38,7 @@
 <script src="{{ asset('js/contacto.js') }}"></script>
 <script src="{{ asset('js/configuracion_csfr.js') }}"></script>
 <script src="{{ asset('js/configuracion_toastr.js') }}"></script>
+<script src="{{ asset('js/jquery.timelify.js') }}"></script>
 
 @show
 </html>
