@@ -17,3 +17,7 @@
   </div>  
   <input type="submit" value="Enviar" id="btn_contacto" style="width:100%">
 </form>
+
+<div style="width:50px;margin:0 auto" hidden id="contact_loading">
+    <i class="fa fa-spinner fa-spin fa-3x fa-fw color_blanco" ></i>
+</div>

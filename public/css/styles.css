@@ -180,7 +180,7 @@ body {
 }
 
 .portafolio {
-	width: 700px;
+	width: 80%;
 	height: auto;
 	margin-top:5em;
 	margin:auto;
@@ -190,14 +190,22 @@ body {
 		text-decoration: none;
 		padding:5px;
 		margin-left: 4em;
+    width: 33%;
 	}
-
+  .derecha {
+    float:right;
+  }
+.item_portafolio {
+  width: 256px;
+}
 .item_portafolio:hover {
 	cursor:pointer;
 	
 }
 .item_portafolio img {
 	transition: border-radius 0.5s;
+  width: 100%;
+  height: 50%;
 }
 .item_portafolio img:hover{
 	border-radius: 20px 0 20px 0;
@@ -291,10 +299,12 @@ form textarea {
 @media(max-width: 1170px) {
   
   .titulo_grande_mobile {
-    font-size: 3em;
+    text-align: center;
+    font-size: 1.5em;
   }
   .parrafo_grande_mobile {
-    font-size: 1em;
+    text-align: justify;
+    font-size: 0.5em;
   }
 
 	.portafolio {
@@ -415,6 +425,29 @@ form textarea {
 	font-size: 10em;
 }
 
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin:0 auto;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /*time line*/
 

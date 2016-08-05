@@ -1,13 +1,7 @@
 @extends('master')
 
 @section('contenido')
-<script>
-	$(document).ready(function() {
 
-		$('.timeline').timelify();
-
-	});
-</script>
 <section class="seccion_principal">
 
 	@include('sections.seccion_principal')	

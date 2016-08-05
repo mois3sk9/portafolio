@@ -11,7 +11,7 @@
 			<div class="en_linea">
 				
 				<i class="fa fa-at" style="font-size:2em"  aria-hidden="true" ></i>
-				<h2 class="en_linea" style="margin-bottom:20%;display:en_linea;">moi1432@gmail.com</h2>
+				<h2 class="en_linea" style="margin-bottom:20%;display:en_linea;">moi1432@outlook.cl</h2>
 			</div>
 			
 		</div>
@@ -19,7 +19,7 @@
 		
 	</div>
 	<div class="mitad">
-		<div>
+		<div class="derecha">
 			<i class="fa fa-github icono_social" style="font-size:2em" aria-hidden="true"></i>
 			<i class="fa fa-facebook-square icono_grande"  style="font-size:2em"aria-hidden="true"></i>
 			<i class="fa fa-twitter-square icono_grande"  style="font-size:2em"aria-hidden="true"></i>
