@@ -8,8 +8,7 @@
 		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/jquery.fancybox.css') }}">
-		<link rel="stylesheet" href="{{ asset('css/timelify.css') }}">
-		<link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/time_line.css') }}">
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
 	@show
 </head>
@@ -35,10 +34,12 @@
 <script src="{{ asset('js/fancybox_home.js') }}"></script>
 <script src="{{ asset('js/jquery.form.js') }}"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+<script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js') }}"></script>
+
 <script src="{{ asset('js/contacto.js') }}"></script>
 <script src="{{ asset('js/configuracion_csfr.js') }}"></script>
 <script src="{{ asset('js/configuracion_toastr.js') }}"></script>
-<script src="{{ asset('js/jquery.timelify.js') }}"></script>
+<script src="{{ asset('js/time_line.js') }}"></script>
 
 @show
 </html>

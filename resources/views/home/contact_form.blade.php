@@ -1,8 +1,8 @@
 
 {{-- El script que controla este formulario es contacto.js --}}
-<h1 class="letra_grande">Contacto</h1>
+<h1 class="letra_grande color_blanco">Contacto</h1>
 <br>
-<h4>Si tienes alguna duda o algún proyecto en el que podamos trabajar, no dudes en contactarme</h4>
+<h4 class="color_blanco">Si tienes alguna duda o algún proyecto en el que podamos trabajar, no dudes en contactarme</h4>
 
 <form class="cf" id="formulario_contacto"  method="post" onsubmit="return enviar_contacto();">
   <div class="half left cf">
