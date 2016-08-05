@@ -14,10 +14,10 @@
 </section>
 <section class="segunda_seccion">
 	
-	@include('sections.segunda_seccion');
+	@include('sections.segunda_seccion')
 </section>
 <section class="tercera_seccion pad-ding" id="proyectos">
-	@include('sections.tercera_seccion');
+	@include('sections.tercera_seccion')
 </section>
 
 <section class="curriculum pad-ding">
