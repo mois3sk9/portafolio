@@ -164,6 +164,39 @@ body {
   background-color: #cccccc;
   opacity: 0.9;
 }
+@media(max-width: 1200px) { 
+  .contacto {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  /*background-image: url('../img/principales/landing_sm.jpg');*/
+  background-position: bottom;
+  background-color: white
+}
+.tercera_seccion {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-image: url('../img/principales/landing_sm.jpg');
+}
+.segunda_seccion {
+  width: 100%;
+  min-height: 500px;
+  height: auto;
+  opacity: 0.97;
+  background-color: #cccccc;
+}
+.curriculum {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-color: #cccccc;
+  opacity: 0.97;
+}
+}
+
+
+
 
 /*FIN SECCIONES EN HOME*/
 .en_linea
