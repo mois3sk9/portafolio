@@ -15,7 +15,7 @@
 </section>
 
 <section class="curriculum pad-ding">
-  <h1 align="center" class="letra_grande"> Curriculum </h1>
+  <h1 align="center" class="letra_grande"> Curriculúm </h1>
   @include('sections.time_line')
 
 </section>

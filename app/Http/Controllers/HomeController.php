@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use App\Contacto;
 
 class HomeController extends Controller
 {
@@ -40,10 +41,23 @@ class HomeController extends Controller
             'texto'=> 'required'
         ]);
         
-    // send email
-        mail("moi1432@gmail.com", $request->asunto,$request->texto);
+    
+        $contacto = new Contacto();
+        $contacto->nombre = $request->nombre;
+        $contacto->asunto = $request->asunto;
+        $contacto->email = $request->email;
+        $contacto->mensaje = $request->texto;
+        $contacto->save();
+
+       // mail("moi1432@gmail.com", $request->asunto,$request->texto.$request->email);
 
         
         echo json_encode(['estado'=>1]);
     }
+
+
+    public function curriculumDescargado() 
+    {
+
+    }   
 }

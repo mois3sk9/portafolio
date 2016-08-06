@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
 		<link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Days+One" />
 
 	@show
 </head>
@@ -44,7 +45,7 @@
 <script src="{{ asset('js/configuracion_csfr.js') }}"></script>
 <script src="{{ asset('js/configuracion_toastr.js') }}"></script>
 <script src="{{ asset('js/time_line.js') }}"></script>
-
+<script src="{{ asset('js/descargar_curriculum.js') }}"></script>
 <script src="{{ asset('js/owl_configuracion.js') }}"></script>
 @show
 </html>

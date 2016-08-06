@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/','HomeController@index');
+Route::get('/',['middleware'=>'visitas','uses'=>'HomeController@index']);
 
 
 Route::get('welcome', 'HomeController@index');
@@ -34,11 +34,11 @@ Route::post('contacto', [
 	'as' => 'contacto'
 ]);
 
-Route::get("test-email", function() {
-	echo "enviando";
-    Mail::send("emails.contacto", [], function($message) {
-        $message->to("moi1432@gmail.com", "moises sepulveda")
-        ->subject("mail de prueba");
-    });
-    echo "enviado";
+Route::post('curriculum_descargado', function(App\Curriculum $curriculum, Request $request){
+	$ipAddress = $_SERVER['REMOTE_ADDR'];
+	if (array_key_exists('HTTP_X_FORWARDED_FOR', $_SERVER)) {
+	    $ipAddress = array_pop(explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']));
+	}
+	$curriculum->ip = $ipAddress;
+	$curriculum->save();
 });

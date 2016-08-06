@@ -184,6 +184,6 @@
   <!-- cd-timeline-block --> 
 </section>
 
-<div style="width:240px;margin:0 auto">
-  <a class="btn" href="{{ asset('documentos/pdf/curriculum_moises_sepulveda.pdf') }}" download="curriculum_moises_sepulveda.pdf"> <i class="fa fa-file-pdf-o" aria-hidden="true"> &nbsp</i>Descargar curriculum</a>
+<div style="width:260px;margin:0 auto">
+  <a class="btn" href="{{ asset('documentos/pdf/curriculum_moises_sepulveda.pdf') }}" onclick="curriculum_descargado()" download="curriculum_moises_sepulveda.pdf"> <i class="fa fa-file-pdf-o" aria-hidden="true"> &nbsp</i>Descargar curriculum</a>
 </div>
