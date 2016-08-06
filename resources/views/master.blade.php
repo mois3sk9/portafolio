@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--<link rel="icon" href="https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png?v=2" />-->
 		<title>Portafolio</title>
 	@section('css')
 		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
@@ -13,7 +14,8 @@
 		<link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Days+One" />
-
+		
+		<link rel="icon" type="image/png" href="{{ asset('img/coffe_icon.png') }}?v=3" />
 	@show
 </head>
 <body>
