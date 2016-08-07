@@ -1,7 +1,7 @@
 <div>
 	<h2 class="color_blanco">Portafolio de</h2>
 
-	<h1 class="letra_grande color_secundario en_linea">Proyectos</h1>
+	<h1 class="titulo_principal color_secundario en_linea align_left">Proyectos</h1>
 	<h2 class="en_linea color_blanco">Informáticos</h2>
 	<div class="social">
 		
@@ -19,6 +19,6 @@
 			para dar vida a las soluciones informáticas de mis clientes, y 
 			luego más abajo podrás ver los proyectos que he realizado y que son de caracter publico :) "
 		</h3>
-		<h1 class="color_secundario firma_moises letra_titulo">Moisés Sepúlveda</h1>
+		<h1 class="color_secundario firma_moises letra_grande">Moisés Sepúlveda</h1>
 	</div>
 </div>
