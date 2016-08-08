@@ -29,7 +29,9 @@
 		@section('footer')
 		<footer>
 			@include('home.footer')
+			
 		</footer>
+		
 		@show
 	</div>
 </body>

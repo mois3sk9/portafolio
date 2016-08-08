@@ -287,12 +287,48 @@ body {
 .item_portafolio img:hover{
   border-radius: 20px 0 20px 0;
 } 
+.color_titulo_footer 
+{
+  color:#5d5553;
+}
 
 footer {
   width: 100%;
   height: auto;
-  min-height: 200px;
+  min-height: 50px;
   background-color: #0B181C;
+  background-image: url('../img/footer_i.jpg');
+  background-position: bottom;
+  /*background-size: 200px;*/
+}
+.mitad_footer {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+@media(max-width: 1200px) {
+  footer {
+   background-image: none;
+   height: auto;
+  min-height: none;
+  }
+#footer {
+  display: none;
+
+}
+}
+@media(max-width: 768px) {
+
+footer h1 {
+  font-size: 1.2em;
+}
+footer h2 {
+  font-size: 1.1em;
+
+}
+footer i {
+  font-size:1.2em;
+}
 }
 
 footer i {
