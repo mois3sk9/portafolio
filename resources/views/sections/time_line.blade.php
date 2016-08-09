@@ -1,8 +1,8 @@
-<section id="cd-timeline" class="cd-container">
+<section id="cd-timeline" class="cd-container cssanimations">
   <div class="cd-timeline-block">
     <div class="cd-timeline-img cd-picture">
 
-     <img src="{{ asset('img/curriculum/linux_c.png') }}" alt="Picture">
+      <img src="{{ asset('img/curriculum/linux_c.png') }}" alt="Picture">
     </div>
     <!-- cd-timeline-img -->
     
@@ -28,7 +28,8 @@
         </div>
       </div>
       <div class="clear"></div>
-      <span class="cd-date" ><a href="http://www.jqueryscript.net/time-clock/"></a>2012-2014</span> </div>
+      <span class="cd-date" ><a href="http://www.jqueryscript.net/time-clock/"></a>2012-2014</span> 
+    </div>
     <!-- cd-timeline-content --> 
   </div>
   <!-- cd-timeline-block -->

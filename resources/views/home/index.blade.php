@@ -10,7 +10,7 @@
 	
 	@include('sections.segunda_seccion')
 </section>
-<section class="tercera_seccion pad-ding" id="proyectos">
+<section class="tercera_seccion pad-ding parallax" id="proyectos">
 	@include('sections.tercera_seccion')
 </section>
 
@@ -19,9 +19,9 @@
   @include('sections.time_line')
 
 </section>
-<section class="contacto pad-ding" id="contacto">
+<section class="contacto pad-ding parallax" id="contacto">
 	
 	@include('home.contact_form')
-
+  
 </section>
 @stop

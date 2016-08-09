@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css"/>
 		<link rel="stylesheet" href="{{ asset('css/owl.carousel.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/owl.theme.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/animate.css') }}">
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Days+One" />
 		
 		<link rel="icon" type="image/png" href="{{ asset('img/coffe_icon.png') }}?v=3" />
@@ -37,7 +38,6 @@
 </body>
 @section('js')
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="{{ asset('js/jquery.scrollme.min.js') }}"></script>
 <script src="{{ asset('js/jquery.fancybox.js') }}"></script>
 <script src="{{ asset('js/fancybox_home.js') }}"></script>
 <script src="{{ asset('js/jquery.form.js') }}"></script>
@@ -51,5 +51,6 @@
 <script src="{{ asset('js/time_line.js') }}"></script>
 <script src="{{ asset('js/descargar_curriculum.js') }}"></script>
 <script src="{{ asset('js/owl_configuracion.js') }}"></script>
+<script src="{{ asset('js/efectos.js') }}"></script>
 @show
 </html>

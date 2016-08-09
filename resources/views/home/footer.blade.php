@@ -16,9 +16,9 @@
 	<div class="mitad_footer desaparecer">
 		<h1 class="color_titulo_footer" align="center">Redes sociales</h1>
 		<div class="centrar_div_256" style="width:120px">
-			<i class="fa fa-github icono_social" style="font-size:2em" aria-hidden="true"></i>
-			<i class="fa fa-facebook-square icono_grande"  style="font-size:2em"aria-hidden="true"></i>
-			<i class="fa fa-twitter-square icono_grande"  style="font-size:2em"aria-hidden="true"></i>
+			<a href="http://github.com/mois3sk9" title"Perfil de GitHub"><i class="fa fa-github icono_social" style="font-size:2em" aria-hidden="true"></i></a>
+			<a href="https://facebook.com/mois3s" title="Perfil de Faceebook"><i class="fa fa-facebook-square icono_grande color_negro"  style="font-size:2em" aria-hidden="true"></i></a>
+			<a href="https://twitter.com/moisesk9" title="Perfil de twitter"><i class="fa fa-twitter-square icono_grande color_negro"  style="font-size:2em"aria-hidden="true"></i></a>
 		</div>
 	</div>
 	

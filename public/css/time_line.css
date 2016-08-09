@@ -347,6 +347,13 @@ cd-bounce-1 {  0% {
   animation: cd-bounce-2 0.6s;
 }
 }
+.cssanimations .cd-timeline-content.bounce-in {
+  visibility: visible;
+  -webkit-animation: cd-bounce-2 0.6s;
+  -moz-animation: cd-bounce-2 0.6s;
+  animation: cd-bounce-2 0.6s;
+}
+.cssanimations .cd-timeline-content.is-hidden { visibility: hidden; }
  @media only screen and (min-width: 1170px) {
 
 /* inverse bounce effect on even content blocks */
@@ -356,6 +363,9 @@ cd-bounce-1 {  0% {
   -moz-animation: cd-bounce-2-inverse 0.6s;
   animation: cd-bounce-2-inverse 0.6s;
 }
+}
+.hide {
+  visibility: hidden;
 }
 
 .imagen_competencia {
