@@ -49,6 +49,16 @@
 					</a>
 				</div>
    </div>
+
+   <div class="item"> 
+	<div class="item_portafolio en_linea" style="width:256px">
+					
+					<a class="" href="https://github.com/mois3sk9/skills" target="_blank">
+						<img src="{{ asset('img/skills.png') }}" alt="">
+						<h3 class="" style="color:black" align="center">Skills JQuery plugin</h3>
+					</a>
+				</div>
+   </div>
  
   
 </div>

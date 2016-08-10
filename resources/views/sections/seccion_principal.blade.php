@@ -8,7 +8,7 @@
 		<a href="https://www.facebook.com/mois3s" target="_blank" title="Perfil de Facebook"><i class="fa fa-facebook-square icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
 		<a href="https://www.twitter.com/moisesk9" target="_blank" title="Perfil de twitter"><i class="fa fa-twitter-square icono_social color_secundario" style="font-size:50px" aria-hidden="true"></i></a>
 	</div>
-	
+	<div class="clear"></div>
 	<hr class="style-three">
 	<div class="centrado pad-ding contenedor">
 		<h3 class="letra_de_parrafo justificar_texto interlineado_parrafo_grande">
@@ -20,6 +20,8 @@
 		</h3>
 		<h1 class="color_secundario firma_moises letra_grande">Moisés Sepúlveda</h1>
 		<br><br>
+		
+		<h2 class="green">holamundo</h2>
 	</div>
 
 </div>

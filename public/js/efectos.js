@@ -1,7 +1,7 @@
 
 jQuery(document).ready(function($){
 var $efecto = $('.efecto');
-
+$(".habilidades").skill();
 //hide timeline blocks which are outside the viewport
 $efecto.each(function() {
 	$(this).addClass('animated');
@@ -23,10 +23,10 @@ $(window).on('scroll', function() {
 //on scolling, show/animate timeline blocks when enter the viewport
 $(window).on('scroll', function() {
 $efecto.each(function(){
-	console.log("scrolling");
+	/*console.log("scrolling");
 	console.log($(this).offset().top);
 	console.log($(window).scrollTop()+$(window).height()*0.75);
-	console.log();
+	console.log();*/
 	if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).hasClass('bounceOut')) {
 		//console.log("agregado");
 		

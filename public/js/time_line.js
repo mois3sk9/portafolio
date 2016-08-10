@@ -1,5 +1,8 @@
 
 jQuery(document).ready(function($){
+
+//$('.green').greenify();
+
 var $timeline_block = $('.cd-timeline-block');
 
 //hide timeline blocks which are outside the viewport

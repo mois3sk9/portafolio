@@ -9,6 +9,8 @@
 <section class="segunda_seccion">
 	
 	@include('sections.segunda_seccion')
+
+  @include('sections.habilidades')
 </section>
 <section class="tercera_seccion pad-ding parallax" id="proyectos">
 	@include('sections.tercera_seccion')
