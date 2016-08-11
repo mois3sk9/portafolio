@@ -10,14 +10,16 @@
 	
 	@include('sections.segunda_seccion')
 
-  @include('sections.habilidades')
+</section>
+<section class="seccion_habilidades">
+  @include('sections.habilidades') 
 </section>
 <section class="tercera_seccion pad-ding parallax" id="proyectos">
 	@include('sections.tercera_seccion')
 </section>
 
 <section class="curriculum pad-ding">
-  <h1 align="center" class="letra_grande"> Curriculúm </h1>
+  <h1 align="center" class="letra_grande"> Currículum </h1>
   @include('sections.time_line')
 
 </section>

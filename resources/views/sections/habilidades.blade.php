@@ -1,3 +1,4 @@
+<br>
 <section id="habilidades" class="habilidades">
 	<h1 class="letra_grande" align="center">habilidades</h1>
 	
@@ -145,6 +146,79 @@
 					<span class="PercentText ">80%</span>
 				</div>
          	 <img src="{{ asset('img/curriculum/c_c.png') }}" alt="C#" title="C#" class="skill-image">
+
+			</div>
+	</div>
+	</div>
+</section>
+<section id="habilidades" class="habilidades">
+	
+	<div class="habilidades_contenedor">
+		<h2>Bases de datos</h2>
+		<div id="codeconSkills">
+			<div class="codeconSkillbar">
+				<div id="" class="skillBar" skill-percentage="90%" skill-color="#2196F3"> 
+					<span class="codeconSkillArea ">MySql</span>
+					<span class="PercentText ">90%</span>
+				</div>
+         	 <img src="{{ asset('img/curriculum/mysql_c.png') }}" alt="MySql" title="MySql" class="skill-image">
+
+			</div>
+	</div>
+	<div id="codeconSkills">
+			<div class="codeconSkillbar">
+				<div id="" class="skillBar" skill-percentage="60%" skill-color="#D32F2F"> 
+					<span class="codeconSkillArea ">Oracle</span>
+					<span class="PercentText ">60%</span>
+				</div>
+         	 <img src="{{ asset('img/curriculum/oracle.png') }}" alt="Oracle" title="Oracle" class="skill-image">
+
+			</div>
+	</div>
+	<div id="codeconSkills">
+			<div class="codeconSkillbar">
+				<div id="" class="skillBar" skill-percentage="50%" skill-color="#009688"> 
+					<span class="codeconSkillArea ">Mongo DB</span>
+					<span class="PercentText ">50%</span>
+				</div>
+         	 <img src="{{ asset('img/curriculum/mongo_db.png') }}" alt="Mongo DB" title="Mongo DB" class="skill-image">
+
+			</div>
+	</div>
+	</div>
+</section>
+
+<section id="habilidades" class="habilidades">
+	
+	<div class="habilidades_contenedor">
+		<h2>Herramientas de servidor</h2>
+		<div id="codeconSkills">
+			<div class="codeconSkillbar">
+				<div id="" class="skillBar" skill-percentage="90%" skill-color="#FFA000"> 
+					<span class="codeconSkillArea ">Linux</span>
+					<span class="PercentText ">90%</span>
+				</div>
+         	 <img src="{{ asset('img/curriculum/linux_c.png') }}" alt="Linux" title="Linux" class="skill-image">
+
+			</div>
+	</div>
+	<div id="codeconSkills">
+			<div class="codeconSkillbar">
+				<div id="" class="skillBar" skill-percentage="70%" skill-color="#00BCD4"> 
+					<span class="codeconSkillArea ">Docker</span>
+					<span class="PercentText ">70%</span>
+				</div>
+         	 <img src="{{ asset('img/curriculum/docker_c.png') }}" alt="Docker" title="Docker" class="skill-image">
+
+			</div>
+	</div>
+	<div id="codeconSkills">
+			<div class="codeconSkillbar">
+				<div id="" class="skillBar" skill-percentage="80%" skill-color="#9C27B0"> 
+					<span class="codeconSkillArea ">Apache</span>
+					<span class="PercentText ">80%</span>
+				</div>
+         	 <img src="{{ asset('img/curriculum/apache_c.png') }}" alt="Apache" title="Apache" class="skill-image">
 
 			</div>
 	</div>

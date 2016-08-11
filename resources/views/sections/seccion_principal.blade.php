@@ -21,7 +21,6 @@
 		<h1 class="color_secundario firma_moises letra_grande">Moisés Sepúlveda</h1>
 		<br><br>
 		
-		<h2 class="green">holamundo</h2>
 	</div>
 
 </div>
