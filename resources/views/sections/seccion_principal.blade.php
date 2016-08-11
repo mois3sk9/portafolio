@@ -10,9 +10,16 @@
 	</div>
 	<div class="clear"></div>
 	<hr class="style-three">
-	<div class="centrado pad-ding contenedor">
+	<h1 class="letra_estil color_secundario letra_gigante animated bounceIn" align="center">MsepulvedA</h1>
+	
+	<div class="centrado">
+			<h1 class="letra_secret color_blanco animated flipInX" style="font-size:2rem" align="center">" Revolucionando la web "</h1>
+
+	</div>
+	<div class="centrado pad-ding contenedor animated">
+		<img src="{{ asset('img/yo.jpg') }}" alt="" class="quote_img">
 		<h3 class="letra_de_parrafo justificar_texto interlineado_parrafo_grande">
-			"Hola, mi nombre es Moisés Sepúlveda, soy Ingeniero en informática, y me dedico al desarrollo de sistemas web
+			&nbsp &nbsp"Hola, mi nombre es Moisés Sepúlveda, soy Ingeniero en informática, y me dedico al desarrollo de sistemas web
 			y app para moviles, a día de hoy estoy enfocado en el sector privado y he desarrollado diversos proyectos en el área
 			móvil y en el área de sistemas web, a continuación se aprecian las técnologías las cuales manejo 
 			para dar vida a las soluciones informáticas de mis clientes, y 
@@ -22,5 +29,5 @@
 		<br><br>
 		
 	</div>
-
+	
 </div>

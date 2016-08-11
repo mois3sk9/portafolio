@@ -6,6 +6,7 @@
 
 	@include('sections.seccion_principal')	
 </section>
+
 <section class="segunda_seccion">
 	
 	@include('sections.segunda_seccion')

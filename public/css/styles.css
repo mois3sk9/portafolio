@@ -4,11 +4,46 @@
     src: url("../fonts/Roboto-Regular.ttf");
 }
 @font-face {
+    font-family: estil;
+    src: url("../fonts/AltamontePersonalUse.otf");
+}
+@font-face {
     font-family: grandeFont;
     src: url("../fonts/giant_head_regular_ot.otf");
 }
+@font-face {
+    font-family: secret;
+    src: url("../fonts/cinnabar.ttf");
+}
 h3, h4, h5,h2,h1 {
   font-family: myFirstFont;
+}
+.letra_estil {
+  font-family: estil;
+}
+.letra_secret {
+  font-family: secret;
+}
+
+@media(min-width:1201px) {
+  .letra_gigante {
+  font-size: 8rem;
+}
+}
+@media(max-width:1200px) {
+  .letra_gigante {
+  font-size: 7rem;
+}
+}
+@media(max-width:768px) {
+  .letra_gigante {
+  font-size: 5rem;
+}
+}
+@media(max-width: 600px) {
+  .letra_gigante {
+  font-size: 2rem;
+}
 }
 .letra_grande {
   font-family: "Days One";
@@ -85,6 +120,7 @@ body {
         border: 3px dashed rgba(0,0,0,0.3);
         background-color: rgba(255,255,255,0.2);
         margin-top: 20px;
+        margin-bottom: 20px;
     }
 
 }
@@ -102,6 +138,18 @@ body {
     background-size: cover;
     background-color: #baa882;
 }
+.quote_img {
+  width: 105px;
+  height: 110px;
+  position: absolute;
+  border-radius: 50%;
+  border: dashed 3px silver;
+  margin-top:-6%;
+  margin-left: -6%;
+  opacity: 0.9;
+  display: none;
+}
+
 
     .ms-hide {
       display: block;
@@ -169,6 +217,7 @@ body {
  width: 700px;
  margin: 0 auto;
  margin-top: 20px;
+ margin-bottom: 20px;
 }
 /*SECCIONES EN HOME*/
 .seccion_principal {
@@ -178,6 +227,22 @@ body {
   min-height:700px;
   padding-top: 0em;
   padding-left:2em;
+}
+.quote_img {
+  width: 105px;
+  height: 110px;
+  position: absolute;
+  border-radius: 50%;
+  border: dashed 3px silver;
+  margin-top:-6%;
+  margin-left: -6%;
+  opacity: 0.9;
+}
+.acerca {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  background-color: #e74c3c;
 }
 .segunda_seccion {
   width: 100%;
