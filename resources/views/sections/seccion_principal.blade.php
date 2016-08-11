@@ -19,9 +19,9 @@
 	<div class="centrado pad-ding contenedor animated">
 		<img src="{{ asset('img/yo.jpg') }}" alt="" class="quote_img">
 		<h3 class="letra_de_parrafo justificar_texto interlineado_parrafo_grande">
-			&nbsp &nbsp"Hola, mi nombre es Moisés Sepúlveda, soy Ingeniero en informática, y me dedico al desarrollo de sistemas web
+			&nbsp &nbsp"Hola, mi nombre es Moisés Sepúlveda, soy Ingeniero en informática titulado en Duoc UC, y me dedico al desarrollo de sistemas web
 			y app para moviles, a día de hoy estoy enfocado en el sector privado y he desarrollado diversos proyectos en el área
-			móvil y en el área de sistemas web, a continuación se aprecian las técnologías las cuales manejo 
+			móvil y en la web, a continuación se aprecian las técnologías las cuales manejo 
 			para dar vida a las soluciones informáticas de mis clientes, y 
 			luego más abajo podrás ver los proyectos que he realizado y que son de caracter publico :) "
 		</h3>

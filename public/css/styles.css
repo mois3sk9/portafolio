@@ -107,7 +107,7 @@ body {
 
       float: right;
       margin-right:20px;
-      margin-top: 20px;
+      /*margin-top: 20px;*/
       height: 50px;
 
   }
@@ -169,7 +169,6 @@ body {
   }
   header {
     width: 100%;
-    
     background-color:#e74c3c;
     margin-bottom: 10px;
   }
@@ -262,7 +261,7 @@ body {
   width: 100%;
   height: auto;
   min-height: 500px;
-  background-image: url('../img/principales/landing_xxs.jpg');
+  background-image: url('../img/wood.jpg');
 }
 .contacto {
   width: 100%;
@@ -283,7 +282,18 @@ body {
 .color_negro {
   color:black;
 }
+.imgd {
+    width: 424px;
+  }
 @media(max-width: 1200px) { 
+
+  .imgp {
+    width: 256px;
+    height: 190px;
+  }
+  .imgd {
+    width: 256px;
+  }
   
   .contacto {
   width: 100%;
@@ -433,6 +443,15 @@ footer {
   float: left;
   box-sizing: border-box;
 }
+@media(min-width: 2000px) {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+
 @media(max-width: 1200px) {
   .social {
     float:none;
