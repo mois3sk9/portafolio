@@ -13,7 +13,7 @@
 	<h1 class="letra_estil color_secundario letra_gigante animated bounceIn" align="center">MsepulvedA</h1>
 	
 	<div class="centrado">
-			<h1 class="letra_secret color_blanco animated flipInX" style="font-size:2rem" align="center">" Revolucionando la web "</h1>
+		<h1 class="letra_secret color_blanco animated flipInX" style="font-size:2rem" align="center">" Revolucionando la web "</h1>
 
 	</div>
 	<div class="centrado pad-ding contenedor animated">
