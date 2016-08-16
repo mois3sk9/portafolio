@@ -1,6 +1,6 @@
 
 {{-- El script que controla este formulario es contacto.js --}}
-<h1 class="letra_grande color_blanco">Contacto</h1>
+<h1 class="letra_grande color_blanco">Mi <span class="color_secundario letra_secret">Contacto</span></h1>
 <br>
 <h4 class="color_blanco">Si tienes alguna duda o algún proyecto en el que podamos trabajar, no dudes en contactarme</h4>
 

@@ -30,6 +30,7 @@ h3, h4, h5,h2,h1 {
   font-size: 8rem;
 }
 }
+
 @media(max-width:1200px) {
   .letra_gigante {
   font-size: 7rem;
@@ -42,7 +43,12 @@ h3, h4, h5,h2,h1 {
 }
 @media(max-width: 600px) {
   .letra_gigante {
-  font-size: 2rem;
+  font-size: 3rem;
+}
+@media(max-width: 400px) {
+  .letra_gigante {
+  font-size: 2.5rem;
+}
 }
 }
 .letra_grande {
@@ -77,6 +83,22 @@ body {
   height: auto;
   
 }
+#quien_soy_container {
+  display: none;
+  margin-top: 9rem;
+}
+
+.stroke { 
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+     opacity: 0.9;
+
+}
+
 .parallax { 
     /* The image used */
    background-image: url('../img/principales/landing_xxs.jpg');
@@ -92,7 +114,29 @@ body {
     background-color: #baa882;
 }
 
+
+
+
 @media(min-width: 1201px) {
+
+  
+  .quote_img {
+    width: 105px;
+    height: 110px;
+    position: absolute;
+    border-radius: 50%;
+    border: dashed 3px silver;
+    margin-top:-6rem;
+    margin-left: -6rem;
+    opacity: 0.9;
+  }
+
+  .text_align_right_large {
+    text-align: right;
+  }
+  .hide-large {
+    display: none;
+  }
   #contenedor {
     font-family: myFirstFont;
     width: 100%;
@@ -125,6 +169,9 @@ body {
 
 }
 @media(max-width: 1200px) {
+  .hide-large {
+    visibility: visible;
+  }
   .parallax { 
    
    background-image: url('../img/principales/landing_sm.png');
@@ -138,17 +185,12 @@ body {
     background-size: cover;
     background-color: #baa882;
 }
-.quote_img {
-  width: 105px;
-  height: 110px;
-  position: absolute;
-  border-radius: 50%;
-  border: dashed 3px silver;
-  margin-top:-6%;
-  margin-left: -6%;
-  opacity: 0.9;
-  display: none;
-}
+
+  .quote_img {
+    display: none;
+  }
+
+
 
 
     .ms-hide {
@@ -162,7 +204,7 @@ body {
     height: 100%;
     min-height: 1000px;
 
-    background-image: url('../img/principales/landing_sm.png');
+    background-image: url('../img/computer.jpg');
     background-repeat: no-repeat;
     background-color: #baa882;
 
@@ -172,6 +214,7 @@ body {
     background-color:#e74c3c;
     margin-bottom: 10px;
   }
+
   #navegacion {
   
     float: right;
@@ -180,7 +223,18 @@ body {
     
   }
 }
-
+.titulo_fixed {
+  position: fixed;
+  font-size: 1.5rem;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 1000;
+  opacity: 0.5;
+}
+#titulo_landing {
+  
+  transition: left 0.5s;
+}
 #header {
   width: 100%;
   height: 50px;
@@ -223,20 +277,11 @@ body {
    box-sizing: border-box;
   width: 100%;
   height: auto;
-  min-height:700px;
+  min-height:44rem;
   padding-top: 0em;
-  padding-left:2em;
+  padding-left:0em; 
 }
-.quote_img {
-  width: 105px;
-  height: 110px;
-  position: absolute;
-  border-radius: 50%;
-  border: dashed 3px silver;
-  margin-top:-6%;
-  margin-left: -6%;
-  opacity: 0.9;
-}
+
 .acerca {
   width: 100%;
   height: auto;
@@ -287,6 +332,17 @@ body {
   }
 @media(max-width: 1200px) { 
 
+  .imagen_principal_yo {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    border: dashed 3px silver;
+  }
+
+  .text_align_center_mobile {
+    text-align: center;
+  }
+
   .imgp {
     width: 256px;
     height: 190px;
@@ -333,7 +389,8 @@ body {
   border: 3px dashed rgba(0,0,0,0.3);
   background-color: rgba(255,255,255,0.2);
   margin-top: 20px;
-  margin-right: 30px;
+  margin-right: 1.9rem;
+  margin-left: 1.9rem;
   
 }
 
@@ -472,6 +529,16 @@ footer {
 }
 }
 @media(max-width: 768px) {
+
+  #contenedor {
+    font-family: myFirstFont;
+    width: 100%;
+    min-width: 200px;
+    max-width: 100%;
+    height: 100%;
+    min-height: 1000px;
+    background-image: url('../img/principales/landing_sm.png');
+  }
 
 footer h1 {
   font-size: 1.2em;
@@ -697,7 +764,7 @@ form textarea {
   text-align: left;
 }
 .titulo_principal {
-  font-size: 3em;
+  font-size: 2rem;
    font-family: "Days One";
 }
 
@@ -848,4 +915,23 @@ p.speech:after {
   top: 100px;
   border: 15px solid;
   border-color: #fff transparent transparent #fff;
+}
+.btn_landing {
+  -webkit-border-radius: 1;
+  -moz-border-radius: 1;
+  border-radius: 1px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #de3333;
+  padding: 10px 20px 10px 20px;
+  border-bottom: solid #ffa1a1 3px;
+  text-decoration: none;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+}
+
+.btn_landing:hover {
+  background: #f7868f;
+  text-decoration: none;
 }

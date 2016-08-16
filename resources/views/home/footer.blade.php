@@ -32,5 +32,14 @@
 		<div style="width:100%;height:50px;background-color:black" class="centrar_div_256">
 			<div class="centrar_div_256" style="width:25px;"><img src="{{ asset('img/laravel_footer.png') }}" width="25px" height="25px" alt=""> </div>
 			<p class="color_blanco" align="center">Powered By Laravel</p>
+			<div style="background-color:black" class="hide-large">
+				<div class="centrar_div_256" style="width:120px;background-color:black">
+				<a href="http://github.com/mois3sk9" title"Perfil de GitHub"><i class="fa fa-github icono_social color_blanco" style="font-size:2em" aria-hidden="true"></i></a>
+				<a href="https://facebook.com/mois3s" title="Perfil de Faceebook"><i class="fa fa-facebook-square icono_grande color_blanco"  style="font-size:2em" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/moisesk9" title="Perfil de twitter"><i class="fa fa-twitter-square icono_grande color_blanco"  style="font-size:2em"aria-hidden="true"></i></a>
+			</div>
+			</div>
+			
 		</div>
+
 	</div>

@@ -1,6 +1,7 @@
 
 <div class="pad-ding">
-	<h1 align="center" class="color_secundario letra_grande" style="color:black;padding-bottom:0.5em;">Tecnologías</h1>
+	<h1 align="center" class="color_secundario letra_grande" style="color:black;padding-bottom:0.5em;">Qué áreas<manejo class="letra_secret color_secundario"> manejo...</manejo></h1>
+	
 <div class="tercio padding-mobile">
 	<div class="centrar_div_256 efecto is-hidden">
 		
@@ -10,8 +11,7 @@
 	<div class="desc_tech_left ancho_completo-mobile">
 						<h1 class=" titulo" align="left">Desarrollo Móvil</h1>
 						<p class="interlineado_parrafo_grande justificar_texto parrafo_grande_mobile">
-							El desarrollo móvil una necesidad en expansión constante, por lo que ofrecer soluciones de este tipo es todo un orgullo, a día de hoy 
-							puedo ofrecer soluciones para sistemas basados en android, ya sea de manera nativa con Java o de manera hibrida con cordova.
+							El desarrollo móvil actualmente es una de mis prioridadades, dado el rol que los dispositivos móviles juegan en nuestras vidas. Para dar vidas a soluciones móviles actualmente utilizo Android (Nativo) y si es necesario Cordova para soluciones multiplataforma.
 						</p>
 		</div>
 </div>
@@ -30,7 +30,8 @@
 						 por lo que construir sistemas con técnologias de vanguardia es una obligación 
 						 para ofrecer al cliente lo mejor de lo mejor. 
 						 Es por esto que los sitios que realizo son construidos  bajo 
-						 Html 5 y css 3, y en caso de ser necesario utilizó técnologias complementarias como bootstrap, jquery o Angular para sistemas mas avanzados.</p>
+						 HTML 5 y CSS 3, y en caso de ser necesario utilizó técnologias complementarias como bootstrap, jquery o Angular para sistemas mas avanzados.
+						</p>
 	</div>
 </div>
 

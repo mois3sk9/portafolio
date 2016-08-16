@@ -22,8 +22,10 @@
 </head>
 <body>
 	<div id="contenedor">
+
+		@section('nav')
 		@include('sections.nav')
-		
+		@show
 		<section>
 			@yield('contenido')
 		</section>
@@ -45,6 +47,7 @@
 <script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 <script src="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js') }}"></script>
 <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+<script src="https://cdn.jsdelivr.net/scrollorama/0.1/jquery.scrollorama.js"></script>
 
 <script src="{{ asset('js/contacto.js') }}"></script>
 <script src="{{ asset('js/configuracion_csfr.js') }}"></script>
@@ -54,5 +57,9 @@
 <script src="{{ asset('js/owl_configuracion.js') }}"></script>
 <script src="{{ asset('js/jquery.skills.js') }}"></script>
 <script src="{{ asset('js/efectos.js') }}"></script>
+<script src="{{ asset('js/efectos.js') }}"></script>
+<script src="{{ asset('js/jquery.imageScroll.min.js') }}"></script>
+<script src="{{ asset('js/titulo.js') }}"></script>	
+<script src="{{ asset('js/parralax.js') }}"></script>
 @show
 </html>

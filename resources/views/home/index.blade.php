@@ -7,7 +7,7 @@
 	@include('sections.seccion_principal')	
 </section>
 
-<section class="segunda_seccion">
+<section class="segunda_seccion" id="segunda_seccion">
 	
 	@include('sections.segunda_seccion')
 
@@ -20,11 +20,11 @@
 </section>
 
 <section class="curriculum pad-ding">
-  <h1 align="center" class="letra_grande"> Currículum </h1>
+  <h1 align="center" class="letra_grande">Mi <span class="color_secundario letra_secret">Currículum</span> </h1>
   @include('sections.time_line')
 
 </section>
-<section class="contacto pad-ding parallax" id="contacto">
+<section class="contacto pad-ding parallax" id="contacto" >
 	
 	@include('home.contact_form')
   

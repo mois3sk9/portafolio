@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/',['middleware'=>'visitas','uses'=>'HomeController@index']);
+Route::get('/',['middleware'=>'visitas','uses'=>'HomeController@index','as'=>'principal']);
 
 
 Route::get('welcome', 'HomeController@index');

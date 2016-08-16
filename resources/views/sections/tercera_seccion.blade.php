@@ -6,7 +6,7 @@
 </style>
 
 <div class="port">
-	<h1 class="letra_grande letra_titulo color_secundario" align="center">Proyectos</h1>
+	<h1 class="letra_grande letra_titulo color_negro" align="center">Mis <span class="color_secundario letra_secret">Proyectos</span></h1>
 	<br>
 	<br>
 	<br>

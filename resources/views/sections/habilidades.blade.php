@@ -1,7 +1,9 @@
 <br>
 <section id="habilidades" class="habilidades">
-	<h1 class="letra_grande" align="center">habilidades</h1>
-	
+	<h1 class="letra_grande" align="center">Mis <manejo class="letra_secret color_secundario">Habilidades</manejo></h1>
+	<br>
+	<br>
+	<br>
 	<div class="habilidades_contenedor">
 		<h2>Desarrollo WEB</h2>
 		<div id="codeconSkills">
